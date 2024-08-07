@@ -1,9 +1,12 @@
-import React from "react";
+// src/components/NavBar.js
+import React from 'react';
 
-function NavBar() {
+const NavBar = () => {
   return (
     <nav>
-      <a href="#home">I'm a link!</a>
+      {/* Navigation content */}
     </nav>
   );
-}
+};
+
+export default NavBar;
